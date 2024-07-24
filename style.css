@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: azure;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    margin: 0;
+    list-style: none;
+    background-color: transparent;
+    font-size: 30px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px #434343;
+    border-radius: 2px;
+}
+li:hover{
+    background-color:transparent;
+    transform: translate3d(1px, 5px, 0px);
+    box-shadow: -5px -5px 10px black;
+    transition: 1s;
+    transition-behavior: ease;
+}
+
+.container{
+    top:  20%;
+    margin: auto;
+    /* position: absolute; */
+    left: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 20px auto;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-item:active{
+    background-color: green;
+}
+
+.box-item{
+    width: 100px;
+    height: 100px;
+    background-color: #434343;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 0px rgb(42, 42, 42);
+    
+}
+
+.box-item:hover{
+    background-color:yellow;
+    box-shadow: 5px 5px 10px black;
+    transition: 1s;
+    transition-behavior: ease;
+}
+
+.desc{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: larger;
+}
